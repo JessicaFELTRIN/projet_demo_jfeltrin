@@ -1,0 +1,4 @@
+Problème de connexion Failed to connect to github.com port 443: Timed out
+Résolution: git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+Where proxyuser and proxypwd are your credentials
+and proxy.server.com:8080 is the server name and port you connect to.
